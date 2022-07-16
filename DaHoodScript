@@ -1,0 +1,54 @@
+setfpscap(100)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/DaHoodAntiCheat/main/AntiCheatBypass"))()
+wait(1)
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/miroeramaa/TurtleLib/main/TurtleUiLib.lua"))()
+local window = library:Window("Nadir Hub | Da Hood")
+
+window:Button("Admin Base", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-872.453674, -32.6421318, -532.476379, 0.999682248, -1.36019978e-08, 0.0252073351, 1.33811247e-08, 1, 8.93094043e-09, -0.0252073351, -8.59080007e-09, 0.999682248)
+end)
+
+window:Button("Bank In", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-441.949432, 22.9908752, -284.860657, -0.0125766238, -1.59927662e-08, -0.999920905, 1.05280989e-07, 1, -1.73182144e-08, 0.999920905, -1.05490471e-07, -0.0125766238)
+end)
+
+window:Button("Bank Out", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-417.365234, 22.5499763, -283.54007, -0.0188614689, 1.55573598e-08, -0.99982208, -1.48979129e-09, 1, 1.55882329e-08, 0.99982208, 1.7835432e-09, -0.0188614689)
+end)
+
+window:Button("Church", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(205.719269, 23.779995, -24.1511192, 0.999726117, 3.67244475e-08, -0.0234017391, -3.46032749e-08, 1, 9.10465374e-08, 0.0234017391, -9.02118202e-08, 0.999726117)
+end)
+
+window:Button("Food DownHill", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-327.981415, 23.6826477, -290.708557, -0.0188399032, -3.49968872e-08, -0.999822497, -1.28599353e-08, 1, -3.47607774e-08, 0.999822497, 1.22027632e-08, -0.0188399032)
+end)
+
+window:Button("Villan Base", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.362473, -58.7000732, 147.085922, 1.38767064e-06, 5.13835552e-08, -1, -2.11593996e-08, 1, 5.13835268e-08, 1, 2.11593267e-08, 1.38767064e-06)
+end)
+
+local window = library:Window("Teleport")
+
+window:Button("GasStation 2", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-210.914169, 21.7549973, -822.662537, 0.999506891, 3.34760699e-08, -0.0314000957, -3.67352513e-08, 1, -1.03218397e-07, 0.0314000957, 1.04320989e-07, 0.999506891)
+end)
+
+window:Button("GunShop AK", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-585.135986, 8.31478024, -747.067017, 0.999506891, -7.61789476e-09, -0.0314009301, 7.80730947e-09, 1, 5.90953242e-09, 0.0314009301, -6.15177509e-09, 0.999506891)
+end)
+
+window:Button("GunShop P90", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(492.352661, 48.0705032, -626.895081, -0.0188434906, -1.69818151e-08, -0.999822438, -5.53721158e-08, 1, -1.59412412e-08, 0.999822438, 5.50618964e-08, -0.0188434906)
+end)
+
+window:Button("Sewer", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(110.511185, -26.7500343, -277.025787, -0.999236405, 1.52867798e-08, 0.0390714258, 1.51960649e-08, 1, -2.61875255e-09, -0.0390714258, -2.02302108e-09, -0.999236405)
+end)
+
+window:Button("UFO", function()
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(67.5871429, 138.999985, -691.658203, -0.934334695, -4.22437085e-10, -0.356396794, 5.05053395e-11, 1, -1.31770539e-09, 0.356396794, -1.24917776e-09, -0.934334695)
+end)
+
+library:Keybind("RightControl")
+window:Label("RightControl Close / Open Gui", Color3.fromRGB(127, 143, 166))
